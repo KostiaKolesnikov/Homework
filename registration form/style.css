@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-image: url(zima.jpg);
+    background-image: url(https://www.nefertours.com/upload/iblock/815/815f29890fdb647f0acde04bf0615d4b.jpg);
     backdrop-filter: blur(0px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #2ac91c;
+    border: solid 1px #47ff33;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #2ac91c;
+    color: #51ff3e;
     font-size: 20px;
 }
 
@@ -52,11 +52,11 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #2ac91c;
+    border: solid 2px #61bb5d;
 }
 
 .bordergreen:focus, textarea:focus {
-    border: solid 2px #2ac91c;
+    border: solid 2px #607d5e;
 }
 
 form {
@@ -100,7 +100,7 @@ button {
 }
 
 button:hover, button:focus {
-    border-color: rgba(17, 252, 9, 0.8);
+    border-color: rgba(79, 103, 79, 0.8);
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6);
     outline: 0 none;
 }
@@ -129,7 +129,7 @@ input[type='radio']::before {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border: 2px solid #2ac91c;
+    border: 2px solid #51654f;
 }
 
 input[type='radio']:checked::after {
@@ -140,7 +140,7 @@ input[type='radio']:checked::after {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #2ac91c;
+    background-color: #586f56;
     transform: translate(-50%, -50%);
     visibility: visible;
 }
@@ -234,14 +234,14 @@ input[id=smoking-room], input[id=different-rooms] {
 input[type=checkbox]:checked+.checkbox::after, input[type=checkbox]:checked+.checkbox-label::after {
     content: "YES";
     text-align: left;
-    color: #2ac91c;
+    color: #5e795b;
     background: rgb(61, 61, 61);
 }
 
 input[type=checkbox]:checked+.checkbox-label::before {
     position: absolute;
     left: 176px;
-    background: #2ac91c;
+    background: #627161;
     z-index: 1;
 }
 
@@ -262,6 +262,6 @@ input[type=checkbox]:checked+.checkbox-label::before {
 input[type=checkbox]:checked+.checkbox::before {
     position: absolute;
     left: 166px;
-    background: #2ac91c;
+    background: #556454;
     z-index: 1;
 }
