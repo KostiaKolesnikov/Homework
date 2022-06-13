@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #47ff33;
+    border: solid 1px #4133ff;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #51ff3e;
+    color: #3e44ff;
     font-size: 20px;
 }
 
@@ -52,7 +52,7 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #61bb5d;
+    border: solid 2px #333cbb;
 }
 
 .bordergreen:focus, textarea:focus {
@@ -129,7 +129,7 @@ input[type='radio']::before {
     border-radius: 50%;
     transform: translate(-50%, -50%);
     background-color: white;
-    border: 2px solid #51654f;
+    border: 2px solid #4f5565;
 }
 
 input[type='radio']:checked::after {
@@ -140,7 +140,7 @@ input[type='radio']:checked::after {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #586f56;
+    background-color: #565d6f;
     transform: translate(-50%, -50%);
     visibility: visible;
 }
@@ -234,7 +234,7 @@ input[id=smoking-room], input[id=different-rooms] {
 input[type=checkbox]:checked+.checkbox::after, input[type=checkbox]:checked+.checkbox-label::after {
     content: "YES";
     text-align: left;
-    color: #5e795b;
+    color: #625b79;
     background: rgb(61, 61, 61);
 }
 
@@ -262,6 +262,6 @@ input[type=checkbox]:checked+.checkbox-label::before {
 input[type=checkbox]:checked+.checkbox::before {
     position: absolute;
     left: 166px;
-    background: #556454;
+    background: #555464;
     z-index: 1;
 }
