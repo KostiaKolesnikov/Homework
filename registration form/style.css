@@ -1,6 +1,6 @@
 body {
     position: relative;
-    background-image: url(https://www.nefertours.com/upload/iblock/815/815f29890fdb647f0acde04bf0615d4b.jpg);
+    background-image: url(https://proprikol.ru/wp-content/uploads/2020/04/kartinki-vulkany-27.jpg);
     backdrop-filter: blur(0px);
     background-repeat: no-repeat;
     background-size: cover;
@@ -11,13 +11,13 @@ body {
 }
 
 fieldset {
-    border: solid 1px #4133ff;
+    border: solid 1px #f133ff;
 }
 
 .legend {
     font-family: 'comic', sans-MS;
     letter-spacing: 4px;
-    color: #3e44ff;
+    color: #fc3eff;
     font-size: 20px;
 }
 
@@ -52,7 +52,7 @@ textarea {
 }
 
 .bordergreen:hover {
-    border: solid 2px #333cbb;
+    border: solid 2px #a233bb;
 }
 
 .bordergreen:focus, textarea:focus {
