@@ -9,7 +9,7 @@ body {
 }
 
 aside {
-    flex-basis: 70%;
+    flex-basis: 80%;
     width: 20%;
     height: 100%;
     position: fixed;
@@ -22,7 +22,7 @@ aside {
 }
 
 main {
-    background-color: rgba(238, 238, 238, 0.692);
+    background-color: rgba(234, 198, 245, 0.692);
     flex-basis: 80%;
     height: 1000px;
     flex-grow: 1;
